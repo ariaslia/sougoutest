@@ -9,19 +9,18 @@
 <body>
     <h1>郵便番号</h1>
     <!-- 郵便番号入力の検索ボックス -->
+    <form action="" id="form-ajax">
     <input type="text" id="zipcode" value="" maxlength="7" required>
     <input type="button" id="serch_btn" value="検索">
+    </form> 
     <p>※7桁の半角数字で入力してください</p>
 
     <!-- 検索結果の表示エリア -->
     <div id="zip_result"></div>
 
-    都道府県<br />
-    <input type="text" name="address1" style="width:500px" id="address1"><br />
-    市区町村<br />
-    <input type="text" name="address2" style="width:500px" id="address2"><br />
-    その他<br />
-    <input type="text" name="address3" style="width:500px" id="address3"><br />
+    都道府県：<div id="address1"></div>
+    市区町村：<div id="address2"></div>
+    町域：<div id="address3"></div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./app.js"></script>
