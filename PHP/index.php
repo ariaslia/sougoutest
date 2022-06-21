@@ -36,10 +36,105 @@ for ($i = 1; $i <= 100; $i++) {
     echo '<hr>';
     //問題３
     //5次元配列
-    //一つのものを定義するのに５つの要素を必要とすればよい
-    //
-    $
+    //$webService['sns'][0]['users'][0]['name'];
+    $webService =[
+        "sns"=>[
+            0=>[
+                "users"=>[
+                    0=>[
+                        "name"=>"aida",
+                        "id"=>1,
+                    ],
+                    1=>[
+                        "name"=>"ito",
+                        "id"=>2,
+                    ],
+                ],
+                "device"=>[
+                    0=>[
+                        "name"=>"phone",
+                        "priority"=>"1",
+                    ],
+                    1=>[
+                        "name"=>"PC",
+                        "priority"=>"2",
+                    ],
+                ],
+            ],
+            1=>[
+                "users"=>[
+                    0=>[
+                        "name"=>"ueda",
+                        "id"=>3,
+                    ],
+                    1=>[
+                        "name"=>"eda",
+                        "id"=>4,
+                    ],
+                ],
+                "device"=>[
+                    0=>[
+                        "name"=>"phone",
+                        "priority"=>"1",
+                    ],
+                    1=>[
+                        "name"=>"PC",
+                        "priority"=>"2",
+                    ],
+                ],
+            ],
+        ],
+        "app"=>[
+            0=>[
+                "users"=>[
+                    0=>[
+                        "name"=>"kaida",
+                        "id"=>5,
+                    ],
+                    1=>[
+                        "name"=>"kikuda",
+                        "id"=>6,
+                    ],
+                ],
+                "device"=>[
+                    0=>[
+                        "name"=>"phone",
+                        "priority"=>"1",
+                    ],
+                    1=>[
+                        "name"=>"PC",
+                        "priority"=>"2",
+                    ],
+                ],
+            ],
+            1=>[
+                "users"=>[
+                    0=>[
+                        "name"=>"kusuda",
+                        "id"=>7,
+                    ],
+                    1=>[
+                        "name"=>"keida",
+                        "id"=>8,
+                    ],
+                ],
+                "device"=>[
+                    0=>[
+                        "name"=>"phone",
+                        "priority"=>"1",
+                    ],
+                    1=>[
+                        "name"=>"PC",
+                        "priority"=>"2",
+                    ],
+                ],
+            ],
 
+        ],
+
+    ];
+
+    echo $webService['sns'][0]['users'][0]['name'];
     
 
 
