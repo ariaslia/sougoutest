@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Impact,Charcoal;
+    font-weight: 900;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellowgreen;
+    padding: 14px 40px;
+}
+
+.logo{
+    height: 36px;
+}
+
+.logo2{
+  margin-left: 20px;
+  width: 50px;
+  height: auto;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav > li > a {
+    color: #333;
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+footer{
+    background-color: yellowgreen;
+    color: #333;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px;
+    padding: 20px 0;
+}
+
+.nav-color{
+  background-color:rgb(62,45,34);
+}
+
+.btn-primary{
+  color: white;
+  background-color:green;
+  border-color:black;
+}
+
+.btn-danger{
+  color: white;
+  background-color:green;
+  border-color:black;
+}
+
