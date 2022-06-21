@@ -16,14 +16,11 @@ $(function () {
         })
         .done(function (res) {
             array = res.results;
-            console.log(result);
             if (res.status != 200) {
                 // 通信には成功。APIの結果がエラー
                 // エラー内容を表示
                 $('#zip_result').html(res.message);
-            } else if(!array.length){
-                $('#zip_result').html("<p>存在しない郵便番号です</p>");
-            } else{       
+            }else{       
                 result=res.results[0];         
                 $('#address1').html(result.address1);
                 $('#address2').html(result.address2);

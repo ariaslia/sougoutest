@@ -38,13 +38,7 @@ for ($i = 1; $i <= 100; $i++) {
     //5次元配列
     //一つのものを定義するのに５つの要素を必要とすればよい
     //
-    $student1=['id'=>'1','name'=>'abe','age'=>'5','class'=>'3','sex'=>'man'];
-    $student2=['id'=>'2','name'=>'ito','age'=>'10','class'=>'2','sex'=>'woman'];
-    $student3=['id'=>'3','name'=>'ueda','age'=>'15','class'=>'1','sex'=>'man'];
-
-
-    $all_student=[$student1,$student2,$student3];
-    echo $all_student=[0]['name']['age']['class']['sex'];
+    $
 
     
 
